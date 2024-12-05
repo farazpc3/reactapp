@@ -1,7 +1,27 @@
 body {
-  background: green;
+  background: radial-gradient(circle, #444, #666);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
 }
 h1 {
   background-color: red;
   color: blue;
+}
+
+form {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(to right, blue, #3280a5, green, pink);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  padding: 20px;
+  margin: 0 100px;
 }
